@@ -21,7 +21,7 @@ Clona este repositorio:
 
 bash
 Copiar código
-git clone https://github.com/tuusuario/howarts_rails.git
+git clone https://github.com/AngelTroncoso/howarts_rails.git
 cd howarts_rails
 Instala las dependencias y configura PostgreSQL:
 
