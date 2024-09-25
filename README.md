@@ -1,24 +1,49 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+🧙‍♂️ Howarts Rails
+¡Bienvenido a howarts_rails, la aplicación web donde los personajes mágicos cobran vida! Esta app está diseñada para mostrar a los magos y brujas de diferentes casas, sus ubicaciones y más, utilizando la magia de Ruby on Rails.
 
-Things you may want to cover:
+🌟 Características
+Modelo: Character
+Contiene los siguientes atributos mágicos:
 
-* Ruby version
+name: El nombre del mago o la bruja.
+location: El lugar donde residen.
+house: La casa a la que pertenecen.
+Carga de Datos con Faker
+Utilizamos la gema Faker para generar los datos de manera divertida, cargados a través del archivo seeds.rb.
 
-* System dependencies
+Controlador: Pages
+El PagesController muestra en la vista index una lista de personajes, su ubicación y la casa a la que pertenecen.
 
-* Configuration
+🚀 Instrucciones para Comenzar
+Clona este repositorio:
 
-* Database creation
+bash
+Copiar código
+git clone https://github.com/tuusuario/howarts_rails.git
+cd howarts_rails
+Instala las dependencias y configura PostgreSQL:
 
-* Database initialization
+bash
+Copiar código
+bundle install
+rails db:create db:migrate db:seed
+Ejecuta el servidor:
 
-* How to run the test suite
+bash
+Copiar código
+rails s
+Visita http://localhost:3000 para explorar tu mundo mágico.
 
-* Services (job queues, cache servers, search engines, etc.)
+🌍 Despliegue
+La aplicación está en vivo en Render. Para desplegar, sigue estos pasos:
 
-* Deployment instructions
-
-* ...
+Haz push de tu código a GitHub.
+Conecta tu repositorio de GitHub a Render.
+Despliega tu aplicación y ¡disfruta!
+🛠️ Tecnologías Utilizadas
+Ruby on Rails
+PostgreSQL
+Faker
+Render para el despliegue
