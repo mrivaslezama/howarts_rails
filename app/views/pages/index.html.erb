@@ -1,0 +1,6 @@
+<h1>Lista de Personajes de Harry Potter</h1>
+<ul>
+  <% @characters.each do |character| %>
+    <li><%= character.name %> - <%= character.location %> - <%= character.house %></li>
+  <% end %>
+</ul>
