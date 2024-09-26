@@ -141,7 +141,15 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
-    nokogiri (1.16.7-x64-mingw-ucrt)
+    nokogiri (1.16.7-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.7-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
@@ -150,7 +158,6 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.8)
-    pg (1.5.8-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -256,8 +263,6 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2024.2)
-      tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
     useragent (0.16.10)
     web-console (4.2.1)
@@ -275,7 +280,11 @@ GEM
     zeitwerk (2.6.18)
 
 PLATFORMS
-  x64-mingw-ucrt
+  aarch64-linux
+  arm-linux
+  arm64-darwin
+  x86-linux
+  x86_64-darwin
   x86_64-linux
 
 DEPENDENCIES
@@ -298,4 +307,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.9
+   2.5.17
