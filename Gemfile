@@ -55,3 +55,6 @@ group :test do
 end
 
 gem "faker", "~> 3.0"
+
+gem 'ostruct', '~> 0.6.0'
+
