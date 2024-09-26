@@ -1,7 +1,9 @@
 # README
+# Live preview
+https://howarts-rails-r6xn.onrender.com
 
 🧙‍♂️ Howarts Rails
-¡Bienvenido a howarts_rails, la aplicación web donde los personajes mágicos cobran vida! Esta app está diseñada para mostrar a los magos y brujas de diferentes casas, sus ubicaciones y más, utilizando la magia de Ruby on Rails.
+¡Bienvenido a la aplicación web para visualizar los personajes de las sagas de Harry Potter, magos y brujas de diferentes casas, 
 
 🌟 Características
 Modelo: Character
@@ -21,7 +23,7 @@ Clona este repositorio:
 
 bash
 Copiar código
-git clone https://github.com/AngelTroncoso/howarts_rails.git
+git clone https://github.com/mrivaslezama/howarts_rails.git
 cd howarts_rails
 Instala las dependencias y configura PostgreSQL:
 
