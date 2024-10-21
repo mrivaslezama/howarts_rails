@@ -54,7 +54,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "faker", "~> 3.0"
+gem "faker", "~> 3.5"
 
 gem 'ostruct', '~> 0.6.0'
 
